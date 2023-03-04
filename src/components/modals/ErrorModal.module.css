@@ -1,0 +1,24 @@
+.modal div {
+  border: none;
+}
+
+.header {
+  background-color: #d9534f;
+}
+
+.header button, .header button:hover {
+  color: var(--white);
+}
+
+.title {
+  color: var(--white);
+  font-size: larger;
+}
+
+.body {
+  font-size: 11pt;
+}
+
+.body p:last-of-type {
+  margin-bottom: unset;
+}

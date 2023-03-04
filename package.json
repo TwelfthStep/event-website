@@ -1,0 +1,41 @@
+{
+  "name": "event-registration-website",
+  "version": "0.1.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edwin Finch",
+      "email": "edwin@lignite.io",
+      "url": "https://github.com/edwinfinch"
+    }
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "reinstall": "rm -rf node_modules && rm package-lock.json && npm i"
+  },
+  "dependencies": {
+    "axios": "^1.3.3",
+    "bootstrap": "^5.2.2",
+    "braintree-web": "^3.88.4",
+    
+    "mongoose": "^6.8.4",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.6.0",
+    
+    "react-dom": "18.2.0",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/braintree-web": "^3.75.22",
+    "@types/googlepay": "^0.6.4",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.2"
+  }
+}
